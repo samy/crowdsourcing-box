@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<add>
+<doc>
+  <field name="id">http://vigienature.mnhn.fr/page/le-suivi-temporel-des-oiseaux-communs-stoc</field>
+  <field name="name">Suivi Temporel des Oiseaux Communs (STOC)</field>
+  <field name="keywords">oiseaux, mésange, merle, aigle, rapace, milan, faucon, hirondelle</field>
+  <!-- Join -->
+  <field name="content">oiseau, ornithologie</field>
+  
+</doc>
+<doc>
+  <field name="id">http://vigienature.mnhn.fr/suivi-hivernal-des-oiseaux-communs-shoc</field>
+  <field name="name">Suivi Hivernal des Oiseaux Communs (SHOC)</field>
+  <field name="keywords">hiver, période hivernale, oiseaux</field>
+  <!-- Join -->
+  <field name="content">oiseau, ornithologie</field>
+  
+</doc>
+<doc>
+  <field name="id">http://www.oiseauxdesjardins.fr/</field>
+  <field name="name">Observatoire des oiseaux des jardins</field>
+  <field name="keywords">oiseaux, mésange, merle faucon, hirondelle, épervier, rouge-gorge, rouge-queue, grive</field>
+  <!-- Join -->
+  <field name="content">oiseaux</field>
+  
+</doc>
+<doc>
+  <field name="id">http://vigienature.mnhn.fr/chauves-souris</field>
+  <field name="name">Vigie Nature Chauves-souris</field>
+  <field name="keywords">pipistrelle, rinolophe, oreillard, barbastelle, murin, vampire</field>
+  <!-- Join -->
+  <field name="content">chiroptère, chauve-souris</field>
+  
+</doc>
+<doc>
+  <field name="id">http://lashf.fr/suivi-amphibiens.php</field>
+  <field name="name">Protocole de suivi des populations déamphibiens (POPAMPHIBIEN)</field>
+  <field name="keywords">triton, salamandre, grenouille, crapaud, rainette, grenouille rousse</field>
+  <!-- Join -->
+  <field name="content">amphibien, batracien, grenouille, crapaud</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://www.spipoll.org/</field>
+  <field name="name">Suivi Photographique des Insectes Pollinisateurs (SPIPOLL)</field>
+  <field name="keywords">pollen, fleurs, insectes, abeilles, bourdons, sisyphe</field>
+  <!-- Join -->
+  <field name="content">insecte, abeille</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://insectesetcieletoile.fr/</field>
+  <field name="name">Insectes et Ciel étoilé</field>
+  <field name="keywords">insectes, hanneton, luciole</field>
+  <!-- Join -->
+  <field name="content">insecte</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://www.observatoire-des-bourdons.fr</field>
+  <field name="name">Observatoire des bourdons</field>
+  <field name="keywords">bourdon</field>
+  <!-- Join -->
+  <field name="content">bourdon</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://odonates.pnaopie.fr/steli/</field>
+  <field name="name">Suivi Temporel des Libellules</field>
+  <field name="keywords">libellule</field>
+  <!-- Join -->
+  <field name="content">libellule</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://vigienature.mnhn.fr/page/suivi-temporel-des-rhopaloceres-de-france</field>
+  <field name="name">Suivi Temporel des Rhopalocères de France</field>
+  <field name="keywords">papillon</field>
+  <!-- Join -->
+  <field name="content">papillon de nuit</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://vigienature.mnhn.fr/page/suivi-des-orthopteres-nocturnes</field>
+  <field name="name">Suivi Acoustique Ultrasonore des Tettigoniidés (SAUT)</field>
+  <field name="keywords">sauterelles, crickets</field>
+  <!-- Join -->
+  <field name="content">sauterelle, cricket</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://propage.mnhn.fr/</field>
+  <field name="name">Suivi des papillons par les gestionnaires d'espaces (Propage)</field>
+  <field name="keywords">papillon</field>
+  <!-- Join -->
+  <field name="content">papillon</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://sauvagesdemarue.mnhn.fr/</field>
+  <field name="name">Sauvages de ma rue</field>
+  <field name="keywords">plantes, fleurs, herbes</field>
+  <!-- Join -->
+  <field name="content">plantes, fleurs, herbes</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://vigienature.mnhn.fr/flore/vigie-flore</field>
+  <field name="name">Vigie-Flore</field>
+  <field name="keywords">espèces végétales, flore métropolitaine</field>
+  <!-- Join -->
+  <field name="content">évolution abondance espèces végétales</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://vigienature.mnhn.fr/page/observatoire-des-papillons-des-jardins</field>
+  <field name="name">Observatoire des Papillons des jardins</field>
+  <field name="keywords">papillon</field>
+  <!-- Join -->
+  <field name="content">papillon</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://vigienature.mnhn.fr/observatoire-des-escargots</field>
+  <field name="name">Observatoire des Escargots</field>
+  <field name="keywords">escargots, petit-gris</field>
+  <!-- Join -->
+  <field name="content">escargot</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://www.obs-saisons.fr/participez/plantes-animaux/plantes</field>
+  <field name="name">Plantes de l'Observatoire des saisons</field>
+  <field name="keywords">plantes, phénologie, floraison, débourrement, chute des feuilles</field>
+  <!-- Join -->
+  <field name="content">plantes, phénologie, floraison, débourrement, chute des feuilles
+</field>
+  
+</doc>
+<doc>
+  <field name="id">http://www.obs-saisons.fr/participez/plantes-animaux/animaux</field>
+  <field name="name">Animaux de l'Observatoire des saisons</field>
+  <field name="keywords">Animaux de l'Observatoire des saisons</field>
+  <!-- Join -->
+  <field name="content">Animaux de l'Observatoire des saisons</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://www.cybellemediterranee.org/</field>
+  <field name="name">Cybelle Méditerranée</field>
+  <field name="keywords">biodiversité pélagique, cétacés, tortues, méduses, poissons pélagiques</field>
+  <!-- Join -->
+  <field name="content">cétacés, tortues, méduses, poissons pélagiques</field>
+  
+</doc>
+
+<doc>
+  <field name="id">http://www.cybellemediterranee.org/</field>
+  <field name="name">Cybelle Méditerranée</field>
+  <field name="keywords">biodiversité pélagique, cétacés, tortues, méduses, poissons pélagiques</field>
+  <!-- Join -->
+  <field name="content">cétacés, tortues, méduses, poissons pélagiques</field>
+  
+</doc>
+</add>
