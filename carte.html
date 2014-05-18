@@ -51,6 +51,20 @@ function initialize() {
   }
   var map = new google.maps.Map(document.getElementById('map-canvas'),
                                 mapOptions);
+	var image = 'img/pola.png';
+  var myLatLng = new google.maps.LatLng(44.812798, -0.554430);
+  var beachMarker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      icon: image
+  });
+  var frog = 'img/frog.png';
+  var myLatLng = new google.maps.LatLng(44.814288, -0.558496);
+  var beachMarker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      icon: frog
+  });
 
   
 }
