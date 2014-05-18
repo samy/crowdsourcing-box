@@ -168,11 +168,31 @@
 </doc>
 
 <doc>
-  <field name="id">http://www.cybellemediterranee.org/</field>
-  <field name="name">Cybelle Méditerranée</field>
-  <field name="keywords">biodiversité pélagique, cétacés, tortues, méduses, poissons pélagiques</field>
+  <field name="id">http://www.creamontblanc.org/fr/phenoclim/presentation/</field>
+  <field name="name">Phénoclim</field>
+  <field name="keywords">Phénoclim</field>
   <!-- Join -->
-  <field name="content">cétacés, tortues, méduses, poissons pélagiques</field>
-  
+  <field name="content">Phénoclim</field>
+  <field name="store"></field>
 </doc>
+
+<doc>
+  <field name="id">http://www.creamontblanc.org/fr/phenopiaf-presentation/</field>
+  <field name="name">Phénopiaf</field>
+  <field name="keywords">Phénopiaf</field>
+  <!-- Join -->
+  <field name="content">Phénopiaf</field>
+  <field name="store">Alpes</field>
+</doc>
+
+<doc>
+  <field name="id">http://www.creamontblanc.org/fr/popdechoc/le-chocard-a-bec-jaune/</field>
+  <field name="name">PopdeChoc</field>
+  <field name="keywords">PopdeChoc</field>
+  <!-- Join -->
+  <field name="content">PopdeChoc</field>
+  <field name="store">Massif du Mont Blanc ou de Corse</field>
+</doc>
+
+</add>
 </add>
