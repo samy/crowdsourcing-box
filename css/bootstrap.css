@@ -3162,6 +3162,9 @@ tbody.collapse.in {
 .navbar-toggle:focus {
   outline: 0;
 }
+.bs-docs-nav .navbar-toggle .icon-bar {
+	background-color: #563d7c;
+}
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
