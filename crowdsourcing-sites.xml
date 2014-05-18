@@ -82,7 +82,7 @@
   <field name="name">Suivi Temporel des Rhopalocères de France</field>
   <field name="keywords">papillon</field>
   <!-- Join -->
-  <field name="content">papillon de nuit</field>
+  <field name="content">papillon diurne</field>
   
 </doc>
 
@@ -188,10 +188,154 @@
 <doc>
   <field name="id">http://www.creamontblanc.org/fr/popdechoc/le-chocard-a-bec-jaune/</field>
   <field name="name">PopdeChoc</field>
-  <field name="keywords">chocard à bec jaune, choucas</field>
+  <field name="keywords">PopdeChoc</field>
   <!-- Join -->
-  <field name="content">chocard à bec jaune</field>
+  <field name="content">PopdeChoc</field>
   <field name="store">Massif du Mont Blanc ou de Corse</field>
+</doc>
+
+<doc>
+  <field name="id">http://www.natureparif.fr/abeilles/</field>
+  <field name="name">Observatoire francilien des abeilles</field>
+  <field name="keywords">Observatoire francilien des abeilles</field>
+  <!-- Join -->
+  <field name="content">Observatoire francilien des abeilles</field>
+  <field name="store">Île-de-France</field>
+</doc>
+
+<doc>
+  <field name="id">http://amphibiens.natureparif.fr/</field>
+  <field name="name">Inventaire des routes traversées par les amphibiens</field>
+  <field name="keywords">Observatoire francilien des abeilles</field>
+  <!-- Join -->
+  <field name="content">Observatoire francilien des abeilles</field>
+  <field name="store"></field>
+</doc>
+
+<doc>
+  <field name="id">http://www.parc-naturel-pilat.fr/fr/agir-en-citoyen-du-parc/habiter-le-pilat/jagis-pour-la-nature-du-pilat/313-observatoire-flore.html</field>
+  <field name="name">Observatoire de la flore patrimoniale du Pilat</field>
+  <field name="keywords">Observatoire de la flore patrimoniale du Pilat</field>
+  <!-- Join -->
+  <field name="content">Observatoire de la flore patrimoniale du Pilat</field>
+  <field name="store">Parc du Pilat</field>
+</doc>
+
+<doc>
+  <field name="id">http://pgn.mnhn.fr/</field>
+  <field name="name">Inventaire du patrimoine géologique</field>
+  <field name="keywords">Inventaire du patrimoine géologique</field>
+  <!-- Join -->
+  <field name="content">Inventaire du patrimoine géologique</field>
+  <field name="store"></field>
+</doc>
+
+<doc>
+  <field name="id">http://inpn.mnhn.fr/actualites/lire/2601/signalez-nous-la-presence-des-plathelminthes-vers-plats-terrestres</field>
+  <field name="name">Plathelminthes terrestres invasifs</field>
+  <field name="keywords">Plathelminthes terrestres invasifs</field>
+  <!-- Join -->
+  <field name="content">Plathelminthes terrestres invasifs</field>
+  <field name="store"></field>
+</doc>
+
+<doc>
+  <field name="id">http://inpn.mnhn.fr/espece/signalement/vespa</field>
+  <field name="name">Signalement d'individus ou de nids de frelon asiatique</field>
+  <field name="keywords">Signalement d'individus ou de nids de frelon asiatique</field>
+  <!-- Join -->
+  <field name="content">Signalement d'individus ou de nids de frelon asiatique</field>
+  <field name="store"></field>
+</doc>
+
+<doc>
+  <field name="id">http://www.herault.fr/environnement/sentinelles-de-biodiversite</field>
+  <field name="name">Sentinelles de la biodiversité</field>
+  <field name="keywords">Sentinelles de la biodiversité</field>
+  <!-- Join -->
+  <field name="content">Sentinelles de la biodiversité</field>
+  <field name="store"></field>
+</doc>
+
+<doc>
+  <field name="id">http://www.herault.fr/environnement/sentinelles-de-biodiversite</field>
+  <field name="name">Sentinelles de la biodiversité</field>
+  <field name="keywords">Sentinelles de la biodiversité</field>
+  <!-- Join -->
+  <field name="content">Sentinelles de la biodiversité</field>
+  <field name="store">Hérault</field>
+</doc>
+
+<doc>
+  <field name="id">http://ocic.oec.fr/modules.php?name=Sections&sop=viewarticle&artid=6</field>
+  <field name="name">Réseau d'observation des insectes protégés (Corse)</field>
+  <field name="keywords">Réseau d'observation des insectes protégés (Corse)</field>
+  <!-- Join -->
+  <field name="content">Réseau d'observation des insectes protégés (Corse)</field>
+  <field name="store">Corse</field>
+</doc>
+
+<doc>
+  <field name="id">http://www.bretagne-vivante.org/content/category/134/159/</field>
+  <field name="name">Bretagne Vivante</field>
+  <field name="keywords">amphibiens, reptiles, invertébrés</field>
+  <!-- Join -->
+  <field name="content">Bretagne Vivante</field>
+  <field name="store">Bretagne</field>
+</doc>
+
+<doc>
+  <field name="id">http://franche-comte.lpo.fr/index.php?m_id=20110</field>
+  <field name="name">Obsnatu la base</field>
+  <field name="keywords">oiseaux, mammifères, amphibiens, reptiles</field>
+  <!-- Join -->
+  <field name="content">Obsnatu la base</field>
+  <field name="store">Franche-Comté</field>
+</doc>
+
+<doc>
+  <field name="id">http://www.faune-paca.org/</field>
+  <field name="name">Faune PACA</field>
+  <field name="keywords">faune</field>
+  <!-- Join -->
+  <field name="content">Faune PACA</field>
+  <field name="store">Provence-Alpes-Côte-d'Azur</field>
+</doc>
+
+<doc>
+  <field name="id">http://www.faune-aquitaine.org/</field>
+  <field name="name">Faune Aquitaine</field>
+  <field name="keywords">faune</field>
+  <!-- Join -->
+  <field name="content">Faune Aquitaine</field>
+  <field name="store">Aquitaine</field>
+</doc>
+
+<doc>
+  <field name="id">http://haute-normandie.lpo.fr/themes/enquetes/hirondelles/hirondelles.htm</field>
+  <field name="name">Enquête hirondelles et martinets</field>
+  <field name="keywords">Enquête hirondelles et martinets</field>
+  <!-- Join -->
+  <field name="content">Enquête hirondelles et martinets</field>
+  <field name="store">Haute-Normandie</field>
+</doc>
+
+<doc>
+  <field name="id">http://haute-normandie.lpo.fr/themes/enquetes/ENQUETE_VERGERS.pdf</field>
+  <field name="name">Enquête vergers</field>
+  <field name="keywords">Enquête vergers</field>
+  <!-- Join -->
+  <field name="content">Enquête vergers</field>
+  <field name="store">Haute-Normandie</field>
+</doc>
+
+<doc>
+  <field name="id">http://haute-normandie.lpo.fr/themes/enquetes/ENQUETE_VERGERS.pdf</field>
+  <field name="name">Enquête vergers</field>
+  <field name="keywords">Enquête vergers</field>
+  <!-- Join -->
+  <field name="content">Enquête vergers</field>
+  <field name="store">Haute-Normandie</field>
 </doc>
 
 </add>
