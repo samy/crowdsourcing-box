@@ -19,9 +19,9 @@
 <doc>
   <field name="id">http://www.oiseauxdesjardins.fr/</field>
   <field name="name">Observatoire des oiseaux des jardins</field>
-  <field name="keywords">oiseaux, mésange, merle faucon, hirondelle, épervier, rouge-gorge, rouge-queue, grive</field>
+  <field name="keywords">oiseau, mésange, merle faucon, hirondelle, épervier, rouge-gorge, rouge-queue, grive</field>
   <!-- Join -->
-  <field name="content">oiseaux</field>
+  <field name="content">oiseaux, ornithologie</field>
   
 </doc>
 <doc>
@@ -34,7 +34,7 @@
 </doc>
 <doc>
   <field name="id">http://lashf.fr/suivi-amphibiens.php</field>
-  <field name="name">Protocole de suivi des populations déamphibiens (POPAMPHIBIEN)</field>
+  <field name="name">Protocole de suivi des populations d'amphibiens (POPAMPHIBIEN)</field>
   <field name="keywords">triton, salamandre, grenouille, crapaud, rainette, grenouille rousse</field>
   <!-- Join -->
   <field name="content">amphibien, batracien, grenouille, crapaud</field>
@@ -44,7 +44,7 @@
 <doc>
   <field name="id">http://www.spipoll.org/</field>
   <field name="name">Suivi Photographique des Insectes Pollinisateurs (SPIPOLL)</field>
-  <field name="keywords">pollen, fleurs, insectes, abeilles, bourdons, sisyphe</field>
+  <field name="keywords">pollinisateur, pollinisation, insectes, abeilles, bourdons, sisyphe</field>
   <!-- Join -->
   <field name="content">insecte, abeille</field>
   
@@ -64,7 +64,7 @@
   <field name="name">Observatoire des bourdons</field>
   <field name="keywords">bourdon</field>
   <!-- Join -->
-  <field name="content">bourdon</field>
+  <field name="content">bourdons</field>
   
 </doc>
 
@@ -73,7 +73,7 @@
   <field name="name">Suivi Temporel des Libellules</field>
   <field name="keywords">libellule</field>
   <!-- Join -->
-  <field name="content">libellule</field>
+  <field name="content">libellules</field>
   
 </doc>
 
@@ -82,16 +82,16 @@
   <field name="name">Suivi Temporel des Rhopalocères de France</field>
   <field name="keywords">papillon</field>
   <!-- Join -->
-  <field name="content">papillon diurne</field>
+  <field name="content">papillon diurne, papillons</field>
   
 </doc>
 
 <doc>
   <field name="id">http://vigienature.mnhn.fr/page/suivi-des-orthopteres-nocturnes</field>
   <field name="name">Suivi Acoustique Ultrasonore des Tettigoniidés (SAUT)</field>
-  <field name="keywords">sauterelles, crickets</field>
+  <field name="keywords">tettigoniidés, tettigoniidé, sauterelle, criquet</field>
   <!-- Join -->
-  <field name="content">sauterelle, cricket</field>
+  <field name="content">sauterelle, criquet</field>
   
 </doc>
 
@@ -100,34 +100,34 @@
   <field name="name">Suivi des papillons par les gestionnaires d'espaces (Propage)</field>
   <field name="keywords">papillon</field>
   <!-- Join -->
-  <field name="content">papillon</field>
+  <field name="content">papillons</field>
   
 </doc>
 
 <doc>
   <field name="id">http://sauvagesdemarue.mnhn.fr/</field>
   <field name="name">Sauvages de ma rue</field>
-  <field name="keywords">plantes, fleurs, herbes</field>
+  <field name="keywords">plante sauvage, fleur, herbe</field>
   <!-- Join -->
-  <field name="content">plantes, fleurs, herbes</field>
+  <field name="content">plantes sauvages, mauvaises herbes, herbes folles, fleurs, herbes</field>
   
 </doc>
 
 <doc>
   <field name="id">http://vigienature.mnhn.fr/flore/vigie-flore</field>
   <field name="name">Vigie-Flore</field>
-  <field name="keywords">espèces végétales, flore métropolitaine</field>
+  <field name="keywords">espèces végétales, flore métropolitaine, fleur</field>
   <!-- Join -->
-  <field name="content">évolution abondance espèces végétales</field>
+  <field name="content">espèce végétale, fleurs</field>
   
 </doc>
 
 <doc>
   <field name="id">http://vigienature.mnhn.fr/page/observatoire-des-papillons-des-jardins</field>
   <field name="name">Observatoire des Papillons des jardins</field>
-  <field name="keywords">papillon</field>
+  <field name="keywords">papillons des jardins</field>
   <!-- Join -->
-  <field name="content">papillon</field>
+  <field name="content">papillon, papillons</field>
   
 </doc>
 
@@ -136,17 +136,16 @@
   <field name="name">Observatoire des Escargots</field>
   <field name="keywords">escargots, petit-gris</field>
   <!-- Join -->
-  <field name="content">escargot</field>
+  <field name="content">escargot, cagouille</field>
   
 </doc>
 
 <doc>
   <field name="id">http://www.obs-saisons.fr/participez/plantes-animaux/plantes</field>
   <field name="name">Plantes de l'Observatoire des saisons</field>
-  <field name="keywords">plantes, phénologie, floraison, débourrement, chute des feuilles</field>
+  <field name="keywords">arbre, arbuste, plantes, arbre fruitier, herbacées, bouleau, chêne blanc, épicea, forsythia, frêne commun, lilas, marronnier, mélèze, micocoulier, noisetier, platane, robinier, sorbier des oiseleurs, viorne tin, abricotier bergeron, abricotier rouge du Roussillon, amandier, amandier aï, amandier princesse, cerisier, cerisier burlat, cerisier griotte de Montmorency, poirier, poirier Williams, pommier cox orange pippin, pommier golden delicous, pommier reine des reinettes, runier, prunier mirabelle de Nancy, prunier quetsche, Céphalanthère à longues, coquelicot, mauve, orchis bouc, crchis géant, orchis sureau, pissenlit, primevère coucou, mussilage</field>
   <!-- Join -->
-  <field name="content">plantes, phénologie, floraison, débourrement, chute des feuilles
-</field>
+  <field name="content">arbres, arbustes, plantes, phénologie, floraison, débourrement, chute des feuilles, arbres fruitiers</field>
   
 </doc>
 <doc>
