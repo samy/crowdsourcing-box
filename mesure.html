@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>
+      Mesure
+    </title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]>
+<script src="../../assets/js/ie8-responsive-file-warning.js">
+</script>
+<![endif]-->
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+</script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+</script>
+<![endif]-->
+  </head>
+  
+  <body>
+    <p>
+      <div class="container">
+		<div class="panel panel-primary">
+          <div class="panel-heading">
+            <strong>Mesure en cours</strong>
+          </div>
+          <div class="panel-body">
+			<p style="font-size:140%" class="text-center">Acquisition en cours</p>
+			<p class="text-center">
+				<img src="img/loader.gif" />
+			</p>
+			</div>
+			<div class="text-center">
+				<div class="btn btn-success" id="mesure_ok" style="display:none">Mesure effectuée !</div><br /><br />
+				<script type="text/javascript">
+					setTimeout(function() {
+						$('#mesure_ok').show();
+					}, 2500);
+				</script>
+			</div>
+      </div>
+	  
+	  <p class="text-right"><a href="index.html" class="btn btn-default text-right">
+        Retour
+      </a></p>
+    </div>
+    
+    <!-- /container -->
+  </p>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+</body>
+</html>
