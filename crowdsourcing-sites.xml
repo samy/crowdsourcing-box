@@ -188,9 +188,9 @@
 <doc>
   <field name="id">http://www.creamontblanc.org/fr/popdechoc/le-chocard-a-bec-jaune/</field>
   <field name="name">PopdeChoc</field>
-  <field name="keywords">PopdeChoc</field>
+  <field name="keywords">chocard à bec jaune, choucas</field>
   <!-- Join -->
-  <field name="content">PopdeChoc</field>
+  <field name="content">chocard à bec jaune</field>
   <field name="store">Massif du Mont Blanc ou de Corse</field>
 </doc>
 
