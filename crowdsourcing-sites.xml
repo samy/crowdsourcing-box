@@ -187,7 +187,7 @@
 <doc>
   <field name="id">http://www.creamontblanc.org/fr/popdechoc/le-chocard-a-bec-jaune/</field>
   <field name="name">PopdeChoc</field>
-  <field name="keywords">chocard à bec jaune, choucas</field>
+  <field name="keywords">chocard à bec jaune, chocard, chocards</field>
   <!-- Join -->
   <field name="content">oiseau</field>
   <field name="store">Massif du Mont Blanc ou de Corse</field>
@@ -244,15 +244,6 @@
   <field name="keywords">Signalement d'individus ou de nids de frelon asiatique</field>
   <!-- Join -->
   <field name="content">Signalement d'individus ou de nids de frelon asiatique</field>
-  <field name="store"></field>
-</doc>
-
-<doc>
-  <field name="id">http://www.herault.fr/environnement/sentinelles-de-biodiversite</field>
-  <field name="name">Sentinelles de la biodiversité</field>
-  <field name="keywords">Sentinelles de la biodiversité</field>
-  <!-- Join -->
-  <field name="content">Sentinelles de la biodiversité</field>
   <field name="store"></field>
 </doc>
 
@@ -335,6 +326,15 @@
   <!-- Join -->
   <field name="content">Enquête vergers</field>
   <field name="store">Haute-Normandie</field>
+</doc>
+
+<doc>
+  <field name="id">http://creekwatch.researchlabs.ibm.com/</field>
+  <field name="name">Creek Watch</field>
+  <field name="keywords">cours d'eau</field>
+  <!-- Join -->
+  <field name="content">rivière, fleuve, filet d'eau, canal</field>
+  <field name="store"></field>
 </doc>
 
 </add>
