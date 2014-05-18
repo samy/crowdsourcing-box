@@ -53,7 +53,10 @@ function initialize() {
                                 mapOptions);
 	var pois = [
 		{
-			position : '44.812916, -0.554460'
+			name : 'initial',
+			position : '44.812916, -0.554460',
+			title : 'Votre position',
+			info : 'HAHAHA'
 		},
 		{
 			icon : 'sun',
@@ -65,17 +68,20 @@ function initialize() {
 		},
 		{
 			icon : 'cloud',
-			position : '44.8065, -0.558577'
+			position : '44.8065, -0.558577',
+			title : 'Pluviométrie'
 		},
 		{
 			icon : 'building',
 			position : '44.810, -0.548412'
 		}
 	];
-	images = new Array();
-	for (index = 0; index < pois.length; ++index)
+	var markers = new Array();
+	var images = new Array();
+	var infowindows = new Array();
+	for (indexPoi = 0; indexPoi < pois.length; ++indexPoi)
 	{
-		poi = pois[index];
+		poi = pois[indexPoi];
 		var positionData = poi.position.split(',');
 		  var myLatLng = new google.maps.LatLng(positionData[0], positionData[1]);
 		  var markerData = {
@@ -84,9 +90,22 @@ function initialize() {
 		  };
 		if (typeof poi.icon != 'undefined')
 			markerData.icon = 'img/' + poi.icon + '.png';
-		var beachMarker = new google.maps.Marker(markerData);
-	
+		if (typeof poi.title != 'undefined')
+			markerData.title = poi.title;
+		markers[indexPoi] = new google.maps.Marker(markerData);
 	}
+	 var infowindow = new google.maps.InfoWindow({
+      content: '<p><strong>Pluviométrie</strong></p>' +
+		'<p>Il s\'agit de relever la hauteur en mm dans ce quartier</p>'+
+		'<p>La mesure doit être effectuée :</p>' +
+		'<ul><li>Sur un sol bétonné</li><li>En journée</li><li>Avec la Crowdbox</li></ul>'
+  });
+			
+			google.maps.event.addListener(markers[3], 'click', function(el) {
+			console.log(markers[0]);
+			
+				infowindow.open(map,markers[3]);
+		  });
 
 
   
