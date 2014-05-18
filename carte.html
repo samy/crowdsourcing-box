@@ -8,7 +8,7 @@
     <meta name="author" content="">
     
     <title>
-      Vos préférences
+      Autour de moi
     </title>
     
     <!-- Bootstrap core CSS -->
@@ -51,20 +51,43 @@ function initialize() {
   }
   var map = new google.maps.Map(document.getElementById('map-canvas'),
                                 mapOptions);
-	var image = 'img/pola.png';
-  var myLatLng = new google.maps.LatLng(44.812798, -0.554430);
-  var beachMarker = new google.maps.Marker({
-      position: myLatLng,
-      map: map,
-      icon: image
-  });
-  var frog = 'img/frog.png';
-  var myLatLng = new google.maps.LatLng(44.814288, -0.558496);
-  var beachMarker = new google.maps.Marker({
-      position: myLatLng,
-      map: map,
-      icon: frog
-  });
+	var pois = [
+		{
+			position : '44.812916, -0.554460'
+		},
+		{
+			icon : 'sun',
+			position : '44.814012, -0.548879'
+		},
+		{
+			icon : 'frog',
+			position: '44.811060, -0.560467'
+		},
+		{
+			icon : 'cloud',
+			position : '44.8065, -0.558577'
+		},
+		{
+			icon : 'building',
+			position : '44.810, -0.548412'
+		}
+	];
+	images = new Array();
+	for (index = 0; index < pois.length; ++index)
+	{
+		poi = pois[index];
+		var positionData = poi.position.split(',');
+		  var myLatLng = new google.maps.LatLng(positionData[0], positionData[1]);
+		  var markerData = {
+			position: myLatLng,
+			map: map
+		  };
+		if (typeof poi.icon != 'undefined')
+			markerData.icon = 'img/' + poi.icon + '.png';
+		var beachMarker = new google.maps.Marker(markerData);
+	
+	}
+
 
   
 }
