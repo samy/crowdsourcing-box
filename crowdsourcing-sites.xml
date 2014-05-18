@@ -136,7 +136,7 @@
   <field name="name">Observatoire des Escargots</field>
   <field name="keywords">escargots, petit-gris</field>
   <!-- Join -->
-  <field name="content">escargot, cagouille</field>
+  <field name="content">escargot, cagouille, luma</field>
   
 </doc>
 
@@ -145,13 +145,13 @@
   <field name="name">Plantes de l'Observatoire des saisons</field>
   <field name="keywords">arbre, arbuste, plantes, arbre fruitier, herbacées, bouleau, chêne blanc, épicea, forsythia, frêne commun, lilas, marronnier, mélèze, micocoulier, noisetier, platane, robinier, sorbier des oiseleurs, viorne tin, abricotier bergeron, abricotier rouge du Roussillon, amandier, amandier aï, amandier princesse, cerisier, cerisier burlat, cerisier griotte de Montmorency, poirier, poirier Williams, pommier cox orange pippin, pommier golden delicous, pommier reine des reinettes, runier, prunier mirabelle de Nancy, prunier quetsche, Céphalanthère à longues, coquelicot, mauve, orchis bouc, crchis géant, orchis sureau, pissenlit, primevère coucou, mussilage</field>
   <!-- Join -->
-  <field name="content">arbres, arbustes, plantes, phénologie, floraison, débourrement, chute des feuilles, arbres fruitiers</field>
+  <field name="content">arbres, arbustes, plantes, phénologie, floraison, débourrement, feuillaison, chute des feuilles, arbres fruitiers</field>
   
 </doc>
 <doc>
   <field name="id">http://www.obs-saisons.fr/participez/plantes-animaux/animaux</field>
   <field name="name">Animaux de l'Observatoire des saisons</field>
-  <field name="keywords">Animaux de l'Observatoire des saisons</field>
+  <field name="keywords">oiseau, oiseaux, insecte, insectes, coucou gris, échasse blanche, guépier, hirondelle des fenêtres, hirondelle rustique, martinet noir, milan noir, rossignol philomèle, papillon citron, coccinelle</field>
   <!-- Join -->
   <field name="content">Animaux de l'Observatoire des saisons</field>
   
@@ -169,7 +169,7 @@
 <doc>
   <field name="id">http://www.creamontblanc.org/fr/phenoclim/presentation/</field>
   <field name="name">Phénoclim</field>
-  <field name="keywords">Phénoclim</field>
+  <field name="keywords">végétation de montagne, changement climatique, végétation d'altitude, phénologie, floraison, feuillaison, chute des feuilles, débourrement</field>
   <!-- Join -->
   <field name="content">Phénoclim</field>
   <field name="store"></field>
@@ -178,9 +178,9 @@
 <doc>
   <field name="id">http://www.creamontblanc.org/fr/phenopiaf-presentation/</field>
   <field name="name">Phénopiaf</field>
-  <field name="keywords">Phénopiaf</field>
+  <field name="keywords">oiseaux migrateurs, oiseau migrateur, hirondelles rustiques, hirondelles de fenêtre, martinets, rougequeues, coucou</field>
   <!-- Join -->
-  <field name="content">Phénopiaf</field>
+  <field name="content">hirondelle</field>
   <field name="store">Alpes</field>
 </doc>
 
